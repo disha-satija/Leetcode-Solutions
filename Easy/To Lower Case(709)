@@ -1,0 +1,11 @@
+class Solution {
+    public String toLowerCase(String s) {
+        String result = s;
+        for(int i=0 ; i<s.length() ; i++)
+        {
+            result = s.toLowerCase();
+        }
+        return result;
+        //Loop chlane ki jarurat nahi h return s.toLowerCase(); se ho jayega
+    }
+}
